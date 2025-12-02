@@ -1,0 +1,14 @@
+[package]
+name = "ipb-ppki-4"
+version = "0.1.0"
+entrypoint = "ppki.typ"
+authors = ["R. Bramaditya <@bramadityaw>"]
+license = "MIT"
+description = "Template dokumen tugas akhir sesuai PPKI IPB Edisi ke-4"
+keywords = ["IPB", "non-fiction", "basic"]
+categories = ["report", "thesis"]
+exclude = ["template/main.pdf"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
