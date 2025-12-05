@@ -347,17 +347,6 @@
     set figure(gap: 3pt)
     set par(justify: true, first-line-indent: 0em, spacing: 3pt)
     show par: set align(left)
-    set table(
-      stroke: (x: none, y: none),
-    )
-    show table.cell: it => {
-      set text(size: 11pt)
-      if it.y > 0 {
-        align(left, it)
-      } else {
-        align(center, strong(it))
-      }
-    }
     set figure.caption(position: top)
     it
   }
